@@ -1,0 +1,29 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Regenerable figures and trajectory outputs
+/figures/*
+!/figures/.gitkeep
+
+# Local configuration, credentials, and editor/OS files
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.idea/
+.vscode/
+.DS_Store
+._*
+*.swp
+*.swo
